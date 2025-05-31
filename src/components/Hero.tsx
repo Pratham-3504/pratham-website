@@ -1,7 +1,7 @@
 import React from 'react';
 import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
 const Hero = () => {
-  return <section className="min-h-screen flex items-center justify-center px-6 py-20 bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 bg-zinc-950">
+  return <section className="min-h-screen flex items-center justify-center px-6 py-20 bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 bg-slate-950">
       <div className="max-w-4xl mx-auto text-center animate-fade-in">
         <div className="mb-8">
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
