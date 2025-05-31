@@ -1,37 +1,28 @@
-
 import React from 'react';
 import { Code, Server, Smartphone, Palette } from 'lucide-react';
-
 const About = () => {
-  const skills = [
-    {
-      icon: Code,
-      title: 'Frontend Development',
-      description: 'React, TypeScript, Tailwind CSS, Next.js',
-      color: 'text-blue-600 dark:text-blue-400'
-    },
-    {
-      icon: Server,
-      title: 'Backend Development',
-      description: 'Node.js, Java, Spring Boot, RESTful APIs',
-      color: 'text-green-600 dark:text-green-400'
-    },
-    {
-      icon: Smartphone,
-      title: 'Mobile Development',
-      description: 'React Native, Progressive Web Apps',
-      color: 'text-purple-600 dark:text-purple-400'
-    },
-    {
-      icon: Palette,
-      title: 'UI/UX Design',
-      description: 'Figma, Adobe Creative Suite, User Research',
-      color: 'text-pink-600 dark:text-pink-400'
-    }
-  ];
-
-  return (
-    <section id="about" className="py-20 px-6 bg-white dark:bg-gray-900">
+  const skills = [{
+    icon: Code,
+    title: 'Frontend Development',
+    description: 'React, TypeScript, Tailwind CSS, Next.js',
+    color: 'text-blue-600 dark:text-blue-400'
+  }, {
+    icon: Server,
+    title: 'Backend Development',
+    description: 'Node.js, Java, Spring Boot, RESTful APIs',
+    color: 'text-green-600 dark:text-green-400'
+  }, {
+    icon: Smartphone,
+    title: 'Mobile Development',
+    description: 'React Native, Progressive Web Apps',
+    color: 'text-purple-600 dark:text-purple-400'
+  }, {
+    icon: Palette,
+    title: 'UI/UX Design',
+    description: 'Figma, Adobe Creative Suite, User Research',
+    color: 'text-pink-600 dark:text-pink-400'
+  }];
+  return <section id="about" className="py-20 px-6 bg-white dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
@@ -45,12 +36,9 @@ const About = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-          {skills.map((skill, index) => (
-            <div
-              key={skill.title}
-              className="text-center group animate-fade-in"
-              style={{ animationDelay: `${index * 0.2}s` }}
-            >
+          {skills.map((skill, index) => <div key={skill.title} className="text-center group animate-fade-in" style={{
+          animationDelay: `${index * 0.2}s`
+        }}>
               <div className="mb-4 flex justify-center">
                 <div className="p-4 rounded-full bg-gray-100 dark:bg-gray-800 group-hover:scale-110 transition-transform duration-300">
                   <skill.icon size={32} className={skill.color} />
@@ -62,8 +50,7 @@ const About = () => {
               <p className="text-gray-600 dark:text-gray-300">
                 {skill.description}
               </p>
-            </div>
-          ))}
+            </div>)}
         </div>
 
         <div className="bg-gray-50 dark:bg-gray-800 rounded-2xl p-8 md:p-12">
@@ -94,9 +81,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-green-600 text-white rounded-lg flex items-center justify-center font-bold">
-                  10+
-                </div>
+                <div className="w-12 h-12 bg-green-600 text-white rounded-lg flex items-center justify-center font-bold">5+</div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Projects Completed</h4>
                   <p className="text-gray-600 dark:text-gray-300">From concept to deployment</p>
@@ -115,8 +100,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
