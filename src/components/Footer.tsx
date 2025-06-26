@@ -37,7 +37,7 @@ const Footer = () => {
                 GitHub
               </a>
               <a 
-                href="https://www.linkedin.com/in/pratham-soni-80283126b/" 
+                href="https://linkedin.com" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="block text-gray-300 hover:text-white transition-colors"
@@ -45,7 +45,7 @@ const Footer = () => {
                 LinkedIn
               </a>
               <a 
-                href="mailto:prathamsoni7984@gmail.com" 
+                href="mailto:prathamsoni7084@gmail.com" 
                 className="block text-gray-300 hover:text-white transition-colors"
               >
                 Email
