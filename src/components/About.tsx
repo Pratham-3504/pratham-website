@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Code, Server, Smartphone, Palette } from 'lucide-react';
 const About = () => {
@@ -29,11 +28,8 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
             About Me
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed text-center">
-            I'm a Computer Science student at Shri Vaishnav Vidyapeeth Vishwavidyalaya with a passion for 
-            creating innovative digital solutions. I enjoy working on challenging projects that push the 
-            boundaries of technology.
-          </p>
+          <p className="text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed text-center px-[20px] py-[5px] text-xl font-medium">Hello Everyone, I'm Pratham Soni, a passionate Java Developer and a final-year Computer Science student at Shri Vaishnav Vidyapeeth Vishwavidyalaya. 
+I specialize in crafting scalable, efficient, and innovative digital solutions using robust Java technologies. I enjoy working on challenging projects that push the boundaries of technology.</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
