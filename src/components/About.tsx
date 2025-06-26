@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Code, Server, Smartphone, Palette } from 'lucide-react';
 const About = () => {
@@ -29,7 +28,7 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
             About Me
           </h2>
-          <p className="text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed text-xl text-center">Hello Everyone, I'm Pratham Soni, a passionate Java Developer and a final-year Computer Science student at Shri Vaishnav Vidyapeeth Vishwavidyalaya. I specialize in crafting scalable, efficient, and innovative digital solutions using robust Java technologies. I enjoy working on challenging projects that push the  boundaries of technology.</p>
+          <p className="text-gray-600 dark:text-gray-300 max-w-3xl leading-relaxed text-xl py-[10px] px-[20px] text-center my-0 mx-[50px]">Hello Everyone, I'm Pratham Soni, a passionate Java Developer and a final-year Computer Science student at Shri Vaishnav Vidyapeeth Vishwavidyalaya. I specialize in crafting scalable, efficient, and innovative digital solutions using robust Java technologies. I enjoy working on challenging projects that push the  boundaries of technology.</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
@@ -52,7 +51,7 @@ const About = () => {
 
         <div className="bg-gray-50 dark:bg-gray-800 rounded-2xl p-8 md:p-12">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="text-center md:text-left">
+            <div>
               <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
                 My Journey
               </h3>
@@ -68,27 +67,27 @@ const About = () => {
               </p>
             </div>
             <div className="space-y-6">
-              <div className="flex items-center space-x-4 justify-center md:justify-start">
+              <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center font-bold">
                   2+
                 </div>
-                <div className="text-center md:text-left">
+                <div>
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Years of Experience</h4>
                   <p className="text-gray-600 dark:text-gray-300">Building web applications</p>
                 </div>
               </div>
-              <div className="flex items-center space-x-4 justify-center md:justify-start">
+              <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-green-600 text-white rounded-lg flex items-center justify-center font-bold">5+</div>
-                <div className="text-center md:text-left">
+                <div>
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Projects Completed</h4>
                   <p className="text-gray-600 dark:text-gray-300">From concept to deployment</p>
                 </div>
               </div>
-              <div className="flex items-center space-x-4 justify-center md:justify-start">
+              <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-purple-600 text-white rounded-lg flex items-center justify-center font-bold">
                   5★
                 </div>
-                <div className="text-center md:text-left">
+                <div>
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white">HackerRank Rating</h4>
                   <p className="text-gray-600 dark:text-gray-300">Problem solving expertise</p>
                 </div>
