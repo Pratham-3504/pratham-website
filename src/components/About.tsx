@@ -4,7 +4,7 @@ const About = () => {
   const skills = [{
     icon: Code,
     title: 'Frontend Development',
-    description: 'React, TypeScript, Tailwind CSS, Next.js',
+    description: 'React.js, Angular.js',
     color: 'text-blue-600 dark:text-blue-400'
   }, {
     icon: Server,
@@ -22,6 +22,7 @@ const About = () => {
     description: 'Figma, Adobe Creative Suite, User Research',
     color: 'text-pink-600 dark:text-pink-400'
   }];
+  
   return <section id="about" className="py-20 px-6 bg-white dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
