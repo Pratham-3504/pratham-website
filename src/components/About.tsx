@@ -14,7 +14,7 @@ const About = () => {
   }, {
     icon: Palette,
     title: 'UI/UX Design',
-    description: 'Figma, Adobe Creative Suite, User Research',
+    description: 'Figma, Adobe Creative Suite, Canva, User Research',
     color: 'text-pink-600 dark:text-pink-400'
   }];
   
