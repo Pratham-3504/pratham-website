@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
 const Hero = () => {
@@ -20,7 +21,7 @@ const Hero = () => {
           <a href="https://www.linkedin.com/in/pratham-soni-80283126b/" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-300">
             <Linkedin size={24} />
           </a>
-          <a href="mailto:contact@example.com" className="p-3 rounded-full bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-300">
+          <a href="mailto:prathamsoni7984@gmail.com" className="p-3 rounded-full bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-300">
             <Mail size={24} />
           </a>
         </div>
