@@ -1,21 +1,16 @@
 import React from 'react';
-import { Code, Server, Smartphone, Palette } from 'lucide-react';
+import { Code, Server, Palette } from 'lucide-react';
 const About = () => {
   const skills = [{
     icon: Code,
     title: 'Frontend Development',
-    description: 'React.js, Angular.js',
+    description: 'React.js, Angular.js, JavaScript',
     color: 'text-blue-600 dark:text-blue-400'
   }, {
     icon: Server,
     title: 'Backend Development',
     description: 'Node.js, Java, Spring Boot, RESTful APIs',
     color: 'text-green-600 dark:text-green-400'
-  }, {
-    icon: Smartphone,
-    title: 'Mobile Development',
-    description: 'React Native, Progressive Web Apps',
-    color: 'text-purple-600 dark:text-purple-400'
   }, {
     icon: Palette,
     title: 'UI/UX Design',
@@ -29,11 +24,11 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
             About Me
           </h2>
-          <p className="text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed text-center px-[20px] py-[5px] text-xl font-medium">Hello Everyone, I'm Pratham Soni, a passionate Java Developer and a final-year Computer Science student at Shri Vaishnav Vidyapeeth Vishwavidyalaya. 
+          <p className="text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed text-center px-[20px] py-[5px] text-xl font-medium">Hello Everyone, I'm Pratham Soni, a passionate Java Developer and a final-year Computer Science student at Shri Vaishnav Vidyapeeth Vishwavidyalaya. 
 I specialize in crafting scalable, efficient, and innovative digital solutions using robust Java technologies. I enjoy working on challenging projects that push the boundaries of technology.</p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid md:grid-cols-3 gap-8 mb-16">
           {skills.map((skill, index) => <div key={skill.title} className="text-center group animate-fade-in" style={{
           animationDelay: `${index * 0.2}s`
         }}>
