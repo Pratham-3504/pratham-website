@@ -9,7 +9,7 @@ const About = () => {
   }, {
     icon: Server,
     title: 'Backend Development',
-    description: 'Node.js, Java, Spring Boot, RESTful APIs',
+    description: 'Java, Spring Boot, RESTful APIs',
     color: 'text-green-600 dark:text-green-400'
   }, {
     icon: Palette,
