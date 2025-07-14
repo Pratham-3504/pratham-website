@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
@@ -6,7 +7,7 @@ const Projects = () => {
     description: 'A comprehensive system for managing employee performance reviews with micro-services architecture and automated workflows.',
     tech: ['Java', 'Spring Boot', 'Hibernate', 'SQL Server', 'RESTful APIs'],
     image: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500&h=300&fit=crop',
-    github: '#',
+    github: 'https://github.com/Pratham-3504',
     demo: '#',
     featured: true
   }, {
@@ -14,7 +15,7 @@ const Projects = () => {
     description: 'Real-time communication platform with Twilio API integration for SMS and OTPs, featuring multi-channel engagement.',
     tech: ['Java', 'Spring Boot', 'Twilio API', 'PostgreSQL'],
     image: 'https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=500&h=300&fit=crop',
-    github: '#',
+    github: 'https://github.com/Pratham-3504',
     demo: '#',
     featured: true
   }, {
@@ -22,7 +23,7 @@ const Projects = () => {
     description: 'Scalable referral system with unique referral codes, real-time tracking, and comprehensive admin management.',
     tech: ['Java', 'Spring Boot', 'PostgreSQL', 'RESTful API'],
     image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=500&h=300&fit=crop',
-    github: '#',
+    github: 'https://github.com/Pratham-3504',
     demo: '#',
     featured: false
   }, {
@@ -30,7 +31,7 @@ const Projects = () => {
     description: 'Modern, responsive portfolio website built with React and TypeScript, featuring dark mode and smooth animations.',
     tech: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
     image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop',
-    github: '#',
+    github: 'https://github.com/Pratham-3504',
     demo: '#',
     featured: false
   }];
@@ -69,7 +70,7 @@ const Projects = () => {
                 </div>
 
                 <div className="flex space-x-4">
-                  <a href={project.github} className="flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                     <Github size={20} />
                     <span>Code</span>
                   </a>
@@ -80,7 +81,7 @@ const Projects = () => {
         </div>
 
         <div className="text-center mt-12">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center space-x-2 px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+          <a href="https://github.com/Pratham-3504" target="_blank" rel="noopener noreferrer" className="inline-flex items-center space-x-2 px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
             <Github size={20} />
             <span>View All Projects</span>
           </a>
