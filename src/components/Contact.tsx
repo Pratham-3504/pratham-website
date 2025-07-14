@@ -62,7 +62,7 @@ const Contact = () => {
                 Connect with me
               </h4>
               <div className="flex space-x-4">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-gray-800 dark:bg-gray-700 text-white rounded-lg flex items-center justify-center hover:bg-gray-700 dark:hover:bg-gray-600 transition-colors">
+                <a href="https://github.com/Pratham-3504" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-gray-800 dark:bg-gray-700 text-white rounded-lg flex items-center justify-center hover:bg-gray-700 dark:hover:bg-gray-600 transition-colors">
                   <Github size={24} />
                 </a>
                 <a href="https://www.linkedin.com/in/pratham-soni-80283126b/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors">
