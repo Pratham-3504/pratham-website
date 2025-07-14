@@ -59,7 +59,7 @@ const Resume = () => {
         </div>
 
         {/* Resume Preview Card */}
-        <div className="max-w-4xl mx-auto mb-12">
+        <div className="max-w-4xl mx-auto">
           <div className="bg-gray-50 dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden">
             <div className="relative">
               {/* Resume Preview Header */}
@@ -119,16 +119,6 @@ const Resume = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* Additional Info */}
-        <div className="text-center">
-          <div className="inline-flex items-center space-x-2 px-6 py-3 bg-gray-100 dark:bg-gray-800 rounded-lg">
-            <FileText size={20} className="text-gray-600 dark:text-gray-400" />
-            <span className="text-gray-700 dark:text-gray-300">
-              Last updated: December 2024
-            </span>
           </div>
         </div>
       </div>
