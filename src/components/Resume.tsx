@@ -35,14 +35,14 @@ const Resume = () => {
     {
       icon: Code,
       title: 'Technical Skills',
-      content: 'Java, Spring Boot, React, PostgreSQL',
+      content: 'Java, Spring Boot, React, SQL and NoSQL',
       subtitle: 'Modern web development technologies'
     },
     {
       icon: Award,
       title: 'Projects',
-      content: 'Performance Management System',
-      subtitle: 'Enterprise-level applications with scalable architecture'
+      content: 'Focuses over :',
+      subtitle: '1. Enterprise-level application\n2. Scalable and Secure architecture\n3. Problem-solving'
     }
   ];
 
@@ -110,7 +110,7 @@ const Resume = () => {
                         <p className="text-gray-700 dark:text-gray-300 mb-1">
                           {highlight.content}
                         </p>
-                        <p className="text-sm text-gray-500 dark:text-gray-400">
+                        <p className="text-sm text-gray-500 dark:text-gray-400 whitespace-pre-line">
                           {highlight.subtitle}
                         </p>
                       </div>
