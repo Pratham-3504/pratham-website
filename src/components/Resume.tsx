@@ -41,8 +41,8 @@ const Resume = () => {
     {
       icon: Award,
       title: 'Projects',
-      content: 'Focuses over :',
-      subtitle: '1. Enterprise-level application\n2. Scalable and Secure architecture\n3. Problem-solving'
+      content: 'Focus over:',
+      subtitle: 'Enterprise-level application, Scalable and Secure architecture, Problem-solving'
     }
   ];
 
