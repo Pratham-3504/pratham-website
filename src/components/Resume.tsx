@@ -107,10 +107,10 @@ const Resume = () => {
                         <h4 className="font-semibold text-gray-900 dark:text-white mb-1">
                           {highlight.title}
                         </h4>
-                        <p className="text-gray-700 dark:text-gray-300 mb-1">
+                        <p className="text-gray-700 dark:text-gray-300 mb-1 text-base">
                           {highlight.content}
                         </p>
-                        <p className="text-sm text-gray-500 dark:text-gray-400 whitespace-pre-line">
+                        <p className="text-sm text-gray-500 dark:text-gray-400">
                           {highlight.subtitle}
                         </p>
                       </div>
